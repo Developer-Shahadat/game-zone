@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+/* Nav-Bar Style */
+header{
+    margin-top: 2.5rem;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    height: auto;
+}
+.logo img{
+    width: 70px;
+    
+}
+.logo h2{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.logo span{
+    color: #FF42A5;
+    padding-left: 10px;
+}
+.nav-item  {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    gap: 2.5rem; 
+} 
+.nav-item li{
+    margin-top: 5px;
+}
+.nav-item li a {
+    text-decoration: none;
+    color:  #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+.nav-btn button{
+    padding: 8px 20px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.nav-item button img{
+    margin-left: 20px;
+    width: 1rem;
+}
+
+/* Banner-Section */
+ main{
+    width: 100%;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.banner-section{
+    margin-top: 25px;
+}
+.banner-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-content{
+    width: 40rem;
+    height: 500px;
+    background-repeat: repeat;
+    background-size: cover;
+    background-image: url("/images/Group\ 14.png"),
+    linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 70px;
+}
+.banner-content h1{
+    color: #0B0223;
+    padding-right: 50px;
+    font-size: 2.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.banner-content h2{
+    padding-right: 50px;
+    font-size: 5.2rem;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+.banner-description{
+    color: #534C64;
+    margin-left: 110px;
+    padding-top: 10px;
+    text-align: justify;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+.fa-solid{
+    color: #FF42A5;
+    padding-right: 15px;
+}
+.fa-regular{
+    padding-right: 15px;
+}
+
+.banner-pic img{
+    width: 450px;
+    margin-right: 180px;
+}
+.btn-1{
+    margin-top: 30px;
+    background-color: #FF42A5 ;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius:25px;
+    font-weight: 600;  
+}
+.btn-2{
+    background-color:#4EC5F7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius:25px;
+    font-weight: 600; 
+    margin-right: 130px;
+} 
+/* This is we are gamer style */
+.we-are-gamer-container{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.we-are-gamer-content h3{
+    /* padding-top: 20px; */
+    margin-right: 190px;
+   text-align: right;
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.we-are-gamer-pic img{
+    width: 500px;
+}
+.we-are-gamer-description{
+    margin-top: 20px;
+    font-size: 100px;
+    margin-right: 190px;
+    color: #534C64;
+    font-weight: 400;
+}
+.btn-we-are-gamer {
+    margin-top: 20px;
+    cursor: pointer;
+    text-align: right;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #F948B2;
+    border: none;
+    padding: 8px 20px; 
+    border-radius: 25px;
+    margin-left: 400px;
+}
+.we-are-gamer-content p{
+    margin-top: 20px;
+    text-align: right;
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 100px;
+
+}
+/* This is online game section */
+section{
+    margin-top: 50px;
+}
+section h2{
+    text-align: center;color: #0B0223;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+section span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    font-weight: 700;
+
+}
+section p{
+    margin-top: 10px;
+    color: #534C64;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.card{
+    margin-top: 40px;
+    display: flex;
+}
+.card-pic{
+   
+}
+.card-pic img {
+    width: 150px;
+    padding: 10px;
+}
