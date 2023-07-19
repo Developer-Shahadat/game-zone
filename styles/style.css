@@ -147,7 +147,6 @@ nav{
     flex-direction: row-reverse;
 }
 .we-are-gamer-content h3{
-    /* padding-top: 20px; */
     margin-right: 190px;
    text-align: right;
     font-size: 2.5rem;
@@ -257,14 +256,13 @@ cursor: pointer;
 }
 
 /* Play Instantly Style */
+
 .play-instantly-container{
     margin-top: 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-
 }
-
 .play-instantly-content{
     margin-left: 100px;
 }

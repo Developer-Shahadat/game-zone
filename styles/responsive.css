@@ -1,6 +1,7 @@
 /* Mobile Device */
 @media screen and (max-width:576px) {
-    nav,.nav-item 
+   
+    nav,.nav-item
     {
         flex-direction: column;
         margin-top: 20px;
@@ -19,6 +20,7 @@
     .banner-item{
         flex-direction: column-reverse;
         background-size: cover;
+        background-repeat: no-repeat;
         background-image: url("/images/Group\ 14.png"),
         linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
     }
@@ -38,12 +40,80 @@
         /* margin-left: 100px;
         margin-right: 20px; */
     }
-    .we-are-gamer-description{
-        padding: 20px
-        ;
-    }
     .btn-we-are-gamer{
        margin-left: 50px;
+    }
+    .card-pic{
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 30px;
+    }
+    .play-instantly-container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .play-instantly-content{
+        margin-left: 10px;
+    }
+    .play-instantly-pic img{
+        width: 300px;
+    }
+    .play-instantly-two-pic img{
+        width: 150px; 
+    }
+    .play-instantly-two-pic{
+        bottom: 30px;
+    }
+    .play-game-online-container{
+        flex-direction: column;
+    }
+    .play-game-online-content{
+        margin-left: 10px;
+    }
+    .play-game-online-pic img {
+        margin-top: 20px;
+        width: 300px;
+      }
+    .play-game-online-pic{
+        margin-left: 20px;
+        margin-right: 50px;
+    }
+    .play-game-online-two-pic {
+        position: relative;
+        bottom: 120px;
+        left: 50px;
+    } 
+    .play-game-online-two-pic img{
+        width: 200px;
+    }
+    .button-item{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding-left: 0px;
+    }
+    .item img {
+        width: 25px;
+    }
+    .footer .about{
+        margin-top: 10px;
+        padding-left: 30px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .about p{
+        margin-top: 20px;
+    }
+    .footer-icons{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .footer-about-end{
+        padding-left: 20px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .copyright{
+      font-size: 1.3rem;
     }
 }
 
@@ -59,25 +129,88 @@
         /* margin-left: 100px; */
     }
     .logo img{
-        margin-left: 30px;
+       
     } 
     .nav-item {
-        gap: 15px;
+        margin-right: 200px;
     }
     .nav-item li{
         margin-top: 15px;
-        margin-left: 55px;
+       
         
     }
     .nav-btn button{
         margin-top: 10px;
-        margin-left: 5px;
+        margin-left: 0px;
+    }
+    .banner-section{
+        margin-right: 100px;
     }
      .banner-item{
-        flex-direction: column-reverse;
+       
+         flex-direction: column-reverse;
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-image: url("/images/Group\ 14.png"),
+        linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
     }
     .banner-pic img{
         width: 80%;
         margin-left: 60px;
     }
+    .we-are-gamer-container{
+        flex-direction: column-reverse;
+        margin-right: 100px;
+    }
+    .we-are-gamer-pic img{
+        width: 300px;
+    }
+    .we-are-gamer-content h3{
+        text-align: center;
+        margin-left: 20px;
+    }
+    .btn-we-are-gamer{
+       margin-left: 220px;
+    }
+    .card-pic{
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 60px;
+    }
+    .play-instantly-container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .play-game-online-container{
+        margin-left:100px ;
+        flex-direction: column;
+    }
+    .play-game-online-pic img {
+        width: 500px;
+        margin-top: 20px;
+    }
+    .play-game-online-pic{
+        margin-left: 10px;
+       
+        
+    }
+    .play-game-online-description{
+       
+       margin-right: 200px;
+        }
+    .play-game-online-two-pic {
+        position: relative;
+        bottom: 120px;
+    } 
+    .play-game-online-two-pic img{
+        width: 200px;
+    }
+    .button-item{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 0;
+    }
+    .item img {
+        width: 50px;
+    }
+    
 }
