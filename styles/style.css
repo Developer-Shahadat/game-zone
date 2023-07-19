@@ -49,25 +49,23 @@ nav{
     font-weight: 500;
 }
 .nav-btn button{
+    
     padding: 8px 20px;
     text-align: center;
     border-radius: 5px;
     border: none;
     cursor: pointer;
+    
 }
 .nav-item button img{
     margin-left: 20px;
     width: 1rem;
 }
 
-/* Banner-Section */
- /* main{
-    width: 100%;
+.banner-section{
     flex-shrink: 0;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-} */
-.banner-section{
     margin-top: 25px;
 }
 .banner-item{
@@ -116,15 +114,12 @@ nav{
     color: #FF42A5;
     padding-right: 15px;
 }
-.fa-regular{
-    padding-right: 15px;
-}
-
 .banner-pic img{
     width: 450px;
     margin-right: 180px;
 }
 .btn-1{
+    cursor: pointer;
     margin-top: 30px;
     background-color: #FF42A5 ;
     color: white;
@@ -134,6 +129,7 @@ nav{
     font-weight: 600;  
 }
 .btn-2{
+    cursor: pointer;
     background-color:#4EC5F7;
     color: white;
     padding: 10px 20px;
@@ -238,6 +234,28 @@ section p{
     font-weight: 500;
 }
 
+.watch-btn{
+    position: relative;
+    bottom: 250px;
+    left: 120px;
+}
+.fa-regular{
+cursor: pointer;
+ font-size:2.5rem;
+ color: white;
+}
+.watch-text{
+  
+    color: #FF42A5;
+    font-weight: 700;
+}
+
+.card-item-3 img:hover {
+    border: none;
+    opacity: 0.5;
+    background-color:rgba(71, 69, 69, 0.486);
+}
+
 /* Play Instantly Style */
 .play-instantly-container{
     margin-top: 30px;
@@ -319,7 +337,7 @@ font-weight: 400;
     padding-right: 100px;
 }
 .item{
-   
+    cursor: pointer;
     margin: 10px;
     display: flex;
     justify-content: center;
@@ -334,4 +352,66 @@ font-weight: 400;
     border: 1px solid #FF42A5;
     border-radius:  40px;
     padding: 2px 10px;
+}
+
+/* This is footer Section */
+.footer{
+    max-width: 100%;
+    background-color: #0B0223;
+    margin-top: 100px;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo img {
+    margin-top: 40px;
+}
+.footer-logo h3{
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+}
+.footer-logo span{
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.about{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 50px;
+    color: white;
+}
+.footer-icons{
+    cursor: pointer;
+    margin-top: 30px;
+    text-align: center;
+}
+.fa-brands{
+    padding: 20px;
+    color: white;
+    font-size: 1.7rem;
+}
+.footer-about-end{
+    color: rgba(255, 255, 255, 0.87);
+    gap: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
 }
