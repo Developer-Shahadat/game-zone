@@ -30,6 +30,9 @@
         width: 300px;
         margin-right: 100px;
     }
+    .banner-description{
+        margin-left: 10px;
+    }
     .we-are-gamer-container{
         flex-direction: column-reverse;
     }
@@ -44,6 +47,13 @@
     }
     .btn-we-are-gamer{
        margin-left: 50px;
+    }
+    section h2{
+        font-size: 1.5rem;
+    }
+    section p{
+        margin-left: 0px;
+        margin-right: 20px;
     }
     .card-pic{
         grid-template-columns: repeat(1,1fr);
