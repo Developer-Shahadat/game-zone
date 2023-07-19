@@ -1,6 +1,6 @@
 /* Mobile Device */
 @media screen and (max-width:576px) {
-   
+    
     nav,.nav-item
     {
         flex-direction: column;
@@ -18,6 +18,7 @@
         margin-right: 55px;
     }
     .banner-item{
+        
         flex-direction: column-reverse;
         background-size: cover;
         background-repeat: no-repeat;
@@ -27,6 +28,7 @@
     .banner-pic img{
         margin-left: 150px;
         width: 300px;
+        margin-right: 100px;
     }
     .we-are-gamer-container{
         flex-direction: column-reverse;
@@ -129,15 +131,12 @@
         /* margin-left: 100px; */
     }
     .logo img{
-       
     } 
     .nav-item {
         margin-right: 200px;
     }
     .nav-item li{
-        margin-top: 15px;
-       
-        
+        margin-top: 15px; 
     }
     .nav-btn button{
         margin-top: 10px;
@@ -191,7 +190,6 @@
     .play-game-online-pic{
         margin-left: 10px;
        
-        
     }
     .play-game-online-description{
        

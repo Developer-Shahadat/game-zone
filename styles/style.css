@@ -4,6 +4,11 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    
+}
+body{
+    margin: 0px auto;
+    padding: 0px;
     font-family: 'Work Sans', sans-serif;
 }
 /* Nav-Bar Style */
@@ -75,12 +80,12 @@ nav{
 }
 
 .banner-content{
-    width: 40rem;
+    
     height: 500px;
     background-repeat: repeat;
     background-size: cover;
     background-image: url("/images/Group\ 14.png"),
-    linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03));
     text-align: center;
     padding-top: 100px;
     padding-left: 70px;
@@ -94,7 +99,7 @@ nav{
 }
 .banner-content h2{
     padding-right: 50px;
-    font-size: 5.2rem;
+    font-size: 5rem;
     font-weight: 800;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -103,7 +108,7 @@ nav{
     }
 .banner-description{
     color: #534C64;
-    margin-left: 110px;
+    margin-left: 50px;
     padding-top: 10px;
     text-align: justify;
     font-size: 1rem;
