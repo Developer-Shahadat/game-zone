@@ -64,19 +64,23 @@ nav{
     font-size: 18px;
     font-weight: 500;
 }
-.nav-btn button{
-    
+.nav-btn {
+    background: rgba(11, 2, 35, 0.10);
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
     padding: 8px 20px;
-    text-align: center;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-    
+    border-radius: 15px;
+    cursor: pointer; 
 }
-.nav-item button img{
+.nav-btn p{
+    color: #3C354F;
+    font-size: 1.5rem;
+}
+/* .nav-item  img{
     margin-left: 20px;
-    width: 1rem;
-}
+} */
 
 
 .banner-item{
@@ -96,13 +100,13 @@ nav{
 .banner-title{
     text-align: center;
     color: #0B0223;
-    font-size: 2.7rem;
+    font-size: 4.5rem;
     font-weight: 600;
     text-transform: uppercase;
 }
 .banner-text{
     text-align: center;
-    font-size: 5rem;
+    font-size: 7.5rem;
     font-weight: 800;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -113,7 +117,7 @@ nav{
     color: #534C64;
     text-align: center;
     padding-top: 5px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 500;
     text-transform: lowercase;
 }
@@ -172,7 +176,7 @@ nav{
 }
 .we-are-gamer-title{
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: 700;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -180,10 +184,9 @@ nav{
     -webkit-text-fill-color: transparent;
 }
 
-.we-are-gamer-description{
+.we-are-gamer-content .we-are-gamer-description{
     margin-top: 1rem;
-    font-size: 100px;
-    margin-right: 190px;
+    font-size: 1.5rem;
     color: #534C64;
     font-weight: 400;
 }
@@ -445,6 +448,7 @@ cursor: pointer;
     color: white;
 }
 .footer-icons{
+    padding: 0;
     cursor: pointer;
     margin-top: 2rem;
     text-align: center;
@@ -455,6 +459,7 @@ cursor: pointer;
     font-size: 1.7rem;
 }
 .footer-about-end{
+    cursor: pointer;
     color: rgba(255, 255, 255, 0.87);
     gap: 2.8rem;
     display: flex;

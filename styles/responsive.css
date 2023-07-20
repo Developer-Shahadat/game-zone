@@ -30,6 +30,11 @@
     }
     .we-are-gamer-content{
         width: 100%; 
+        
+    }
+    .we-are-gamer-description{
+        margin-left: 2rem;
+       text-align: right;
     }
     /* Online Game */
     .card-pic{
@@ -37,7 +42,6 @@
         text-align: center;
     }
     .watch-btn{
-        
         bottom: 200px;
         left: 0px;
     }
@@ -95,7 +99,6 @@
         grid-template-columns: repeat(3,1fr); 
     }
     .footer-icons{
-       
         text-align: center;
         display: grid;
         grid-template-columns: repeat(3,1fr); 
