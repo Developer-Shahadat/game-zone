@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
-
+/* Some CSS Element */
 *{
     margin: 0;
     padding: 0;
@@ -16,6 +16,7 @@ html{
 a{
     text-decoration: none;
 }
+
 
 /* Nav-Bar Style */
 nav{
@@ -107,7 +108,7 @@ nav{
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    }
+}
 .banner-description{
     color: #534C64;
     text-align: center;
@@ -290,69 +291,90 @@ cursor: pointer;
 .play-instantly-container{
     margin-top: 30px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 .play-instantly-content{
-    margin-left: 100px;
+    width: 50%;
 }
-.play-instantly-content h3{
+.play-instantly-pic{
+    width: 50%;
+}
+.play-instantly-title{
+    text-align: center;
     color: #0B0223;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: 700;
-
 }
-.play-instantly-content p{
-color: #534C64;
-text-align: right;
-font-weight: 400;
+.play-instantly-title span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.play-instantly-description{
+    text-align: center;
+    margin-top:1rem;
+    color: #534C64;
+    font-size: 1.5rem;
+    font-weight: 400;
 
 }
 .play-instantly-pic img{
-    width: 400px;
+    width: 70%;
 }
-.play-instantly-pic{
-   margin-top: 30px;
-}
+
 .play-instantly-two-pic img{
-    width: 200px;
+    width: 40%;
 }
 .play-instantly-two-pic{
     position: relative; 
-    bottom: 170px; 
-    right: 90px;
+    bottom: 220px; 
+    right: 80px;
 }
 
 /* Play Games Online */
 .play-game-online-container{
     display: flex;
-    justify-content: space-around;
-    flex-direction: row-reverse;
-    
+    justify-content: center;
+    align-items: center; 
 }
-.play-game-online-content h3{
+.play-game-online-title{
+    text-align: center;
     color: #0B0223;
     font-size: 2.5rem;
     font-weight: 700;
 }
+.play-game-online-title span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .play-game-online-description{
-color: #534C64;
-font-weight: 400;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #534C64;
+    font-weight: 400;
 }
 .play-game-online-pic img{
-    width: 400px;
+    width: 70%;
+}
+.play-game-online-content{
+    width: 50%;
 }
 .play-game-online-pic{
-   
-   margin-left: 100px;
+    text-align: center;
+   width: 50%;
 }
 .play-game-online-two-pic img{
-    width: 200px;
+    width: 40%;
 }
 .play-game-online-two-pic{
     position: relative; 
     bottom: 170px;
-   left: 300px;
+    left: 230px;
 }
 
 /* This is button Item Style */
@@ -361,8 +383,8 @@ font-weight: 400;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding-left: 250px;
-    padding-right: 100px;
+    padding-left: 15rem;
+    padding-right: 8rem;
 }
 .item{
     cursor: pointer;
@@ -372,7 +394,9 @@ font-weight: 400;
     align-items: center;
     border: none;
 }
+
 .small{
+    font-size: 1.5rem;
     margin-left: 10px;
 }
 .item:hover{
@@ -384,7 +408,6 @@ font-weight: 400;
 
 /* This is footer Section */
 .footer{
-    max-width: 100%;
     background-color: #0B0223;
     margin-top: 100px;
 }
@@ -411,17 +434,19 @@ font-weight: 400;
     -webkit-text-fill-color: transparent;
 }
 .about{
-    margin-top: 30px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 2rem;
     align-items: center;
-    padding-left: 150px;
-    padding-right: 50px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    
     color: white;
 }
 .footer-icons{
     cursor: pointer;
-    margin-top: 30px;
+    margin-top: 2rem;
     text-align: center;
 }
 .fa-brands{
@@ -431,15 +456,16 @@ font-weight: 400;
 }
 .footer-about-end{
     color: rgba(255, 255, 255, 0.87);
-    gap: 30px;
-    padding: 20px;
+    gap: 2.8rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1.5rem;
 }
 .copyright{
+    margin-top: 1.2rem;
     color: rgba(255, 255, 255, 0.60);
     text-align: center;
-    font-size: 16px;
+    font-size: 1.5rem;
     font-weight: 500;
 }
